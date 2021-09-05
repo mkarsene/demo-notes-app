@@ -12,7 +12,7 @@ export default function main(app) {
 
   const storageStack = new StorageStack(app, "storage");
 
-  const apiStack = new ApiStack(app, "api", {
+  new ApiStack(app, "api", {
     table: storageStack.table,
   });
 

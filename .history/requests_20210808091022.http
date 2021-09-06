@@ -1,0 +1,18 @@
+
+@endpoint = https://r31y3cnc15.execute-api.eu-central-1.amazonaws.com/prod/
+
+GET {{endpoint}}/hello/
+###
+
+
+GET {{endpoint}}/spaces?spaceId=a47dd453-aa83-490c-bdfd-5397a37b9362
+###
+
+POST {{endpoint}}/spaces/
+Content-Type: application/json
+
+{
+    "location": "Lusaka",
+    "name": "New Best Location"
+}
+###

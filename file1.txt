@@ -1,0 +1,2 @@
+Authenticating with User Pool
+getaddrinfo ENOTFOUND cognito-idp.user.amazonaws.com

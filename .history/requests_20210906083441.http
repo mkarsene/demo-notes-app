@@ -1,0 +1,7 @@
+
+@endpoint = https://3953w78jbb.execute-api.eu-central-1.amazonaws.com
+
+GET {{endpoint}}/list
+Content-Type: application/json
+
+###

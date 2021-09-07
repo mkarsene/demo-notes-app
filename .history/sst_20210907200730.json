@@ -1,0 +1,7 @@
+{
+  "name": "notes",
+  "stage": "dev",
+  "region": "eu-central-1",
+  "lint": true,
+  "domain": "giramahoro.com"
+}
